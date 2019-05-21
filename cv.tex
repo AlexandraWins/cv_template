@@ -92,142 +92,121 @@
 %----------------------------------------------------------------------------------------
 
 \begin{vwcol}[widths={0.3,0.6},
- sep=3.5cm, justify=top,rule=0pt,indent=0em] 
- %first minipage makes sure everything stays left side 
- %\noindent
+sep=3.5cm, justify=top,rule=0pt,indent=0em] 
  \begin{minipage}[t]{0.37\textwidth}
-   \begin{minipage}{1.1\textwidth}
-   \centering
-   \begin{tikzpicture}[baseline=(pic.center),inner sep=22.5pt]
-   \clip (0,0)  circle (2cm) node (pic) {\includegraphics[width=4cm]{pic.jpeg}};
-   \end{tikzpicture} 
+\begin{minipage}{1.1\textwidth}
+\centering
+\begin{tikzpicture}[baseline=(pic.center),inner sep=22.5pt]
+\clip (0,0)  circle (2cm) node (pic) {\includegraphics[width=4cm]{pic.jpeg}};
+\end{tikzpicture} 
 \end{minipage}
 \parbox{1.1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{21}{21}\selectfont\scshape{Alexandra Wins}} \\
 
- \hspace*{0.3cm}
+\hspace*{0.3cm}
 
-%\parbox{1.1\textwidth}{%
-%Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat\\}
 %----------------------------------------------------------------------------------------
 % PERSONAL INFO
 %----------------------------------------------------------------------------------------
-   \begin{tabular}{L{.43\textwidth}C{.03\textwidth}R{.43\textwidth}}
-      %\toprule % <-- Toprule here
-        %\multicolumn{2}{c}{} \\
-      % \multicolumn{3}{c}{\multirow{2}*{\noindent\rule{0.2\textwidth}{1pt} \Large\faInfo \noindent\rule{0.2\textwidth}{1pt}}}\\
-      & \multirow{3}*{\Large\faInfo}&\\
-      \noindent\rule{0.3\textwidth}{1pt}&&\noindent\rule{0.3\textwidth}{1pt} \\
-      &&\\
-      % \multicolumn{3}{c}{} \\
-     % \midrule % <-- Midrule here
-     % \multicolumn{3}{c}{} \\
-       \multirow{2}*{Email}  &  \multicolumn{2}{r}{\multirow{2}*{jane.doe}}     \\
-       &  \multicolumn{2}{r}{\multirow{2}*{@gmail.com}} \\
-     \multicolumn{3}{c}{} \\
-           \multirow{2}*{Cell phone}&\multicolumn{2}{r}{\multirow{2}*{+49 (1xx) xxxxxxxx}}    \\
-       &\multicolumn{2}{r}{} \\
-      \multicolumn{2}{c}{} \\
-      %\multicolumn{2}{c}{} \\
-    \end{tabular}
+\begin{tabular}{L{.43\textwidth}C{.03\textwidth}R{.43\textwidth}}
+& \multirow{3}*{\Large\faInfo}&\\
+\noindent\rule{0.3\textwidth}{1pt}&&\noindent\rule{0.3\textwidth}{1pt} \\
+&&\\
+\multirow{2}*{Email}  &  \multicolumn{2}{r}{\multirow{2}*{jane.doe}}     \\
+&  \multicolumn{2}{r}{\multirow{2}*{@gmail.com}} \\
+\multicolumn{3}{c}{} \\
+\multirow{2}*{Cell phone}&\multicolumn{2}{r}{\multirow{2}*{+49 (1xx) xxxxxxxx}}    \\
+&\multicolumn{2}{r}{} \\
+\multicolumn{2}{c}{} \\
+\end{tabular}
     
 %---------------------------------------------------------------------------------------- 
      % SKILLS	
 %----------------------------------------------------------------------------------------
  \begin{tabular}{L{.4\textwidth}R{.6\textwidth}}
-     %\toprule % <-- Toprule here
-       \multicolumn{2}{c}{\multirow{2}*{\parbox{1.1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Skills-}}}}\\
-      \multicolumn{2}{c}{} \\
-      %\midrule % <-- Midrule here
-      \multicolumn{2}{c}{} \\
-         \multirow{2}*{Java, SQL, XML, HTML}  &  \multirow{2}*{\grade{4.5}}    \\
-       & \\
-       \multirow{2}*{Skill1, Skill2, Skill3, Skill4}  &   \multirow{2}*{\grade{4.5}}    \\
-       & \\
-       \multirow{2}*{JavaScript, CSS, PHP}  &  \multirow{2}*{\grade{5}}    \\
-       & \\
-       \multirow{2}*{R, Python, Docker}  &   \multirow{2}*{\grade{5}}    \\
-     &\\
-      \multirow{2}*{LaTeX}  &   \multirow{2}*{\grade{5}}    \\
-     &\\
-      \multirow{2}*{Eclipse, RStudio, VS Code}  &   \multirow{2}*{\grade{4.5}}    \\
-     &\\
-      \multirow{2}*{Git, Gerrit, Jenkins, SVN}  &   \multirow{2}*{\grade{4}}    \\
-     &\\
-     %\bottomrule % <-- Bottomrule here
-     \multicolumn{2}{c}{} \\
-    \end{tabular}
+\multicolumn{2}{c}{\multirow{2}*{\parbox{1.1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Skills-}}}}\\
+\multicolumn{2}{c}{} \\
+\multicolumn{2}{c}{} \\
+\multirow{2}*{Java, SQL, XML, HTML}  &  \multirow{2}*{\grade{4.5}}    \\
+& \\
+\multirow{2}*{Skill1, Skill2, Skill3, Skill4}  &   \multirow{2}*{\grade{4.5}}    \\
+& \\
+\multirow{2}*{JavaScript, CSS, PHP}  &  \multirow{2}*{\grade{5}}    \\
+& \\
+\multirow{2}*{R, Python, Docker}  &   \multirow{2}*{\grade{5}}    \\
+&\\
+\multirow{2}*{LaTeX}  &   \multirow{2}*{\grade{5}}    \\
+&\\
+\multirow{2}*{Eclipse, RStudio, VS Code}  &   \multirow{2}*{\grade{4.5}}    \\
+&\\
+\multirow{2}*{Git, Gerrit, Jenkins, SVN}  &   \multirow{2}*{\grade{4}}    \\
+&\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
 
 %----------------------------------------------------------------------------------------    
     % LANGUAGE	
 %----------------------------------------------------------------------------------------
  \begin{tabular}{L{.4\textwidth}R{.6\textwidth}}
-     % \toprule % <-- Toprule here
-       \multicolumn{2}{c}{\multirow{2}*{\parbox{1.05\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Languages-}}}}\\
-       \multicolumn{2}{c}{} \\
-        \multicolumn{2}{c}{} \\
-     % \midrule % <-- Midrule here
-       \multirow{2}*{Language}  &  \multirow{2}*{\grade{5}}    \\
-       & \\
-     \multirow{2}*{Language}  &   \multirow{2}*{\grade{4.5}}    \\
-     &\\
-      \multirow{2}*{Language}  &   \multirow{2}*{\grade{4.5}}    \\
-     \multicolumn{2}{c}{} \\
-     \multicolumn{2}{c}{} \\
-    \end{tabular}
+\multicolumn{2}{c}{\multirow{2}*{\parbox{1.05\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Languages-}}}}\\
+\multicolumn{2}{c}{} \\
+\multicolumn{2}{c}{} \\
+\multirow{2}*{Language}  &  \multirow{2}*{\grade{5}}    \\
+& \\
+\multirow{2}*{Language}  &   \multirow{2}*{\grade{4.5}}    \\
+&\\
+\multirow{2}*{Language}  &   \multirow{2}*{\grade{4.5}}    \\
+\multicolumn{2}{c}{} \\
+\multicolumn{2}{c}{} \\
+\end{tabular}
     
 %----------------------------------------------------------------------------------------   
         % HOBBIES
 %----------------------------------------------------------------------------------------
  \begin{tabular}{L{|.4\textwidth}|R{.6\textwidth}}
-	      %\toprule % <-- Toprule here
-	       \multicolumn{2}{c}{\multirow{2}*{\parbox{1.05\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Hobbys-}}}}\\
-	       \multicolumn{2}{c}{} \\
-	     % \bottomrule % <-- Bottomrule here
-	    \end{tabular}
-	     \begin{tabular}{L{.31\textwidth}C{.31\textwidth}R{.31\textwidth}}
-	      \multicolumn{3}{c}{} \\
-	     \Large\faBicycle&{\includegraphics[width=0.5cm]{kino}}&\Large\faCode\\
-	       \multicolumn{3}{c}{} \\
-	     \Large\faMusic&\Large\faPlane&{\includegraphics[width=0.8cm]{hikingg}}\\
-	      \multicolumn{3}{c}{} \\
-	      \multicolumn{3}{c}{} \\
-	      \multicolumn{3}{c}{} \\
-	      \multicolumn{3}{c}{} \\
-	    \end{tabular}
-	\end{minipage}
-	\hspace{1.5cm}
+\multicolumn{2}{c}{\multirow{2}*{\parbox{1.05\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Hobbys-}}}}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+\begin{tabular}{L{.31\textwidth}C{.31\textwidth}R{.31\textwidth}}
+\multicolumn{3}{c}{} \\
+\Large\faBicycle&{\includegraphics[width=0.5cm]{kino}}&\Large\faCode\\
+\multicolumn{3}{c}{} \\
+\Large\faMusic&\Large\faPlane&{\includegraphics[width=0.8cm]{hikingg}}\\
+\multicolumn{3}{c}{} \\
+\multicolumn{3}{c}{} \\
+\multicolumn{3}{c}{} \\
+\multicolumn{3}{c}{} \\
+\end{tabular}
+\end{minipage}
+\hspace{1.5cm}
 	
 %----------------------------------------------------------------------------------------	
     % BERUFLICHE ERFAHRUNG 	
 %----------------------------------------------------------------------------------------
 \begin{minipage}[t]{0.7\textwidth}
- \begin{tabular}{L{|.4\textwidth}|R{.6\textwidth}}
-      %\toprule % <-- Toprule here
-       \multicolumn{2}{c}{\multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Professional Experience-}}}}\\
-       \multicolumn{2}{c}{} \\
-     % \bottomrule % <-- Bottomrule here
-    \end{tabular}
-  
+\begin{tabular}{L{|.4\textwidth}|R{.6\textwidth}}
+\multicolumn{2}{c}{\multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Professional Experience-}}}}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
 \begin{tabular}{C{.17\textwidth}|L{.85\textwidth}}
 \multicolumn{2}{c}{} \\
- today& Firm    \\
+today& Firm    \\
 &\textbf{Full Java Software Engineer}\\
 -&(Java, JavaScript, Sass, JSF, JEE, RCP, Hibernate\\
 &Spring Boot, Jenkins, Git, Gerrit, Docker, Maven \\
 05/2018&JUnit, Selenium) \\
 \multicolumn{2}{c}{} \\
- 04/2018& Firm    \\
- \multirow{2}*{-}&\textbf{Position}\\
- &Assignments (Java, JEE, RCP, Hibernate, Docker\\
+04/2018& Firm    \\
+\multirow{2}*{-}&\textbf{Position}\\
+&Assignments (Java, JEE, RCP, Hibernate, Docker\\
 10/2017&Jenkins, JUnit) \\
 \multicolumn{2}{c}{} \\
 10/2017& Firm    \\
- \multirow{2}*{-}&\textbf{Position}\\
- &{Some very looooooooooooooooooooooooooong}\\
+\multirow{2}*{-}&\textbf{Position}\\
+&{Some very looooooooooooooooooooooooooong}\\
 04/2017& long long position name\\
 \multicolumn{2}{c}{} \\
 03/2017& Firm    \\
- \multirow{2}*{-}&\textbf{Position}\\
+\multirow{2}*{-}&\textbf{Position}\\
 &your assignments (fancy tech1, fancy tech2, \\
 10/2016&fancy tech4, fancy tech5, fancy tech6) \\
 \multicolumn{2}{c}{} \\
@@ -244,13 +223,11 @@
 %----------------------------------------------------------------------------------------
     % AKADEMISCHE BILDUNG 	
 %----------------------------------------------------------------------------------------
- \begin{tabular}{L{|.4\textwidth}|R{.6\textwidth}}
-      %\toprule % <-- Toprule here
-       \multicolumn{2}{c}{\multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Education-}}}}\\
-       \multicolumn{2}{c}{} \\
-      %\bottomrule % <-- Bottomrule here
-    \end{tabular}
- \begin{tabular}{C{.17\textwidth}|L{.85\textwidth}}
+\begin{tabular}{L{|.4\textwidth}|R{.6\textwidth}}
+\multicolumn{2}{c}{\multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Education-}}}}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+\begin{tabular}{C{.17\textwidth}|L{.85\textwidth}}
 \multicolumn{2}{c}{} \\
  05/2018&\textbf{University name}    \\
 -&Programm, Faculty name \\
@@ -260,14 +237,14 @@
 -&Programm, Faculty\\
 10/2010&information about your studies, even more info \\
 \multicolumn{2}{c}{} \\
- 06/2010&\textbf{Some University or College name}    \\
+06/2010&\textbf{Some University or College name}    \\
 -&Programm, Faculty Name\\
 09/2009&Degree: B. A. Honours \\
 \multicolumn{2}{c}{} \\
  06/2009&\textbf{University or college name}    \\
 09/2007&Programm, Faculty name\\
 \multicolumn{2}{c}{} \\
- 06/2007&\textbf{Some school}    \\
+06/2007&\textbf{Some school}    \\
 09/2001&some info about school \\
 \multicolumn{2}{c}{} \\
 \end{tabular}
@@ -275,12 +252,10 @@
 % AKADEMISCHE BILDUNG 
 %----------------------------------------------------------------------------------------
  \begin{tabular}{L{1.05\textwidth}}
-     % \toprule % <-- Toprule here
-       \multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Scientific Conference-}}}\\
-      \\
-     % \bottomrule % <-- Bottomrule here
-    \end{tabular}
-     \begin{tabular}{C{.17\textwidth}|L{.85\textwidth}}
+\multirow{2}*{\parbox{1\textwidth}{\centering\addfontfeature{LetterSpace=20.0}\fontsize{16}{16}\selectfont\scshape{-Scientific Conference-}}}\\
+\\
+\end{tabular}
+\begin{tabular}{C{.17\textwidth}|L{.85\textwidth}}
 \multicolumn{2}{c}{} \\
 SOMETH&Jone Doe, Jane Doe, Doe John:\\   
 XXXX&  \textbf{Something very absolutely deeply extraordinarily } \\
